@@ -5513,7 +5513,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0x0,
 	},
-/*	[SPECIES_GROOKEY] =
+	[SPECIES_GROOKEY] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
@@ -5528,7 +5528,7 @@ const struct MonCoords gMonBackPicCoords[NUM_SPECIES] =
 		.size = 0x0,
 		.y_offset = 0x0,
 	},
-	[SPECIES_SCORBUNNY] =
+/*	[SPECIES_SCORBUNNY] =
 	{
 		.size = 0x0,
 		.y_offset = 0x0,
