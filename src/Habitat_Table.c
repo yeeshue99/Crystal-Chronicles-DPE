@@ -692,7 +692,7 @@ const u16 gForestPage32[] =
 	SPECIES_COMBEE,
 	SPECIES_VESPIQUEN,
 	SPECIES_CHERUBI,
-	SPECIES_CHERRIM_SUN,
+	SPECIES_CHERRIM,
 };
 
 const u16 gForestPage33[] =
@@ -1627,7 +1627,6 @@ const u16 gMountainPage6[] =
 {
 	SPECIES_CUBONE,
 	SPECIES_MAROWAK,
-	SPECIES_CUBONE_A,
 	SPECIES_MAROWAK_A,
 };
 
@@ -1864,6 +1863,7 @@ const u16 gMountainPage40[]=
 	SPECIES_MINIOR_YELLOW,
 	SPECIES_MINIOR_INDIGO,
 	SPECIES_MINIOR_GREEN,
+	SPECIES_MINIOR_VIOLET,
 };
 
 const u16 gMountainPage41[] =
@@ -2564,8 +2564,6 @@ const u16 gRarePage33[] =
 {
 	SPECIES_ETERNATUS,
 	SPECIES_ETERNATUS_ETERNAMAX,
-	SPECIES_ZARUDE,
-	SPECIES_CALYREX,
 };
 
 const u16 gRarePage34[] =
@@ -2573,7 +2571,25 @@ const u16 gRarePage34[] =
 	SPECIES_KUBFU,
 	SPECIES_URSHIFU_SINGLE,
 	SPECIES_URSHIFU_RAPID,
-	SPECIES_UNKNOWN_MYTHICAL,
+};
+
+const u16 gRarePage35[] =
+{
+	SPECIES_ZARUDE,
+	SPECIES_ZARUDE_DADA,
+};
+
+const u16 gRarePage36[] =
+{
+	SPECIES_GLASTRIER,
+	SPECIES_SPECTRIER,
+};
+
+const u16 gRarePage37[] =
+{
+	SPECIES_CALYREX,
+	SPECIES_CALYREX_ICE_RIDER,
+	SPECIES_CALYREX_SHADOW_RIDER,
 };
 
 const struct HabitatPage gGrasslandPages[] =
@@ -2973,6 +2989,9 @@ const struct HabitatPage gRarePages[] =
 	{gRarePage32, ARRAY_COUNT(gRarePage32)},
 	{gRarePage33, ARRAY_COUNT(gRarePage33)},
 	{gRarePage34, ARRAY_COUNT(gRarePage34)},
+	{gRarePage35, ARRAY_COUNT(gRarePage35)},
+	{gRarePage36, ARRAY_COUNT(gRarePage36)},
+	{gRarePage37, ARRAY_COUNT(gRarePage37)},
 };
 
 const struct Habitat gHabitatPtrsTable[9] =
